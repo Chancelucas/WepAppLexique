@@ -1,0 +1,138 @@
+/* Définition des variables CSS */
+:root {
+  --primary-color: #0065ad;
+  --secondary-color: #efefef;
+  --background-color: #f7f7f7;
+  --text-color: #333;
+  --white-color: #ffffff;
+  --border-color: #ccc;
+  --hover-color: #0065ad;
+  --hover-text-color: #ffffff;
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+main {
+  display: flex;
+  padding: 0 20px;
+}
+
+aside {
+  width: 200px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: var(--hover-color);
+  color: var(--hover-text-color);
+}
+
+section {
+  flex-grow: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: var(--white-color);
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+th {
+  background-color: var(--secondary-color);
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: var(--background-color);
+}
+
+tr:hover {
+  background-color: var(--secondary-color);
+}
+
+td strong {
+  color: var(--primary-color);
+}
+
+td[colspan="2"] {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 1.2em;
+  text-align: left;
+  padding: 10px;
+  border: none;
+}
+
+td[colspan="2"] strong {
+  color: var(--white-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  aside {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+
+  table {
+    font-size: 0.9em;
+  }
+}

@@ -3,32 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Lexique Web DWWM</title>
+  <title>Lexique Web</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Lexique Développeur Web & Web Mobile</h1>
-    <input type="text" id="search" placeholder="🔍 Rechercher un terme...">
+    <h1>Lexique Web</h1>
+    <input type="text" id="search" placeholder="Rechercher..." aria-label="Rechercher dans le lexique">
   </header>
-
-  <table id="lexique">
-    <thead>
-      <tr>
-        <th>Terme</th>
-        <th>Définition</th>
-      </tr>
-    </thead>
-    <tbody id="contenu-lexique">
-      <!-- Les termes seront ajoutés ici dynamiquement -->
-    </tbody>
-  </table>
-
-
-  <footer>
-    <p>&copy; 2024 Lexique Développeur Web & Web Mobile. Tous droits réservés.</p>
-  </footer>
-
+  <main>
+    <aside>
+      <nav>
+        <ul id="menu-categories" aria-label="Menu des catégories">
+          <!-- Les catégories seront insérées ici -->
+        </ul>
+      </nav>
+    </aside>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th>Terme</th>
+            <th>Définition</th>
+          </tr>
+        </thead>
+        <tbody id="contenu-lexique">
+          <!-- Les termes seront insérés ici -->
+        </tbody>
+      </table>
+    </section>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>
