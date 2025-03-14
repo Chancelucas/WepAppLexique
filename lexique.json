@@ -1,11 +1,11 @@
 [
   {
     "terme": "HTML",
-    "definition": "Langage de balisage utilisé pour structurer une page web."
+    "definition": "HyperText Markup Language : Langage de balisage utilisé pour structurer une page web."
   },
   {
     "terme": "CSS",
-    "definition": "Langage de style utilisé pour la mise en page des documents HTML."
+    "definition": "Cascading Style Sheets : Langage de style utilisé pour la mise en page des documents HTML."
   },
   {
     "terme": "JavaScript",
@@ -13,11 +13,11 @@
   },
   {
     "terme": "API",
-    "definition": "Interface permettant à deux systèmes informatiques de communiquer entre eux."
+    "definition": "Application Programming Interface : Interface permettant à deux systèmes informatiques de communiquer entre eux."
   },
   {
     "terme": "REST",
-    "definition": "Style d'architecture pour les API utilisant les méthodes HTTP (GET, POST, etc.)."
+    "definition": "Representational State Transfer : Style d'architecture pour les API utilisant les méthodes HTTP (GET, POST, etc.)."
   },
   {
     "terme": "GET",
@@ -45,19 +45,19 @@
   },
   {
     "terme": "HTTPS",
-    "definition": "Version sécurisée de HTTP utilisant TLS pour chiffrer les données."
+    "definition": "HyperText Transfer Protocol Secure : Version sécurisée de HTTP utilisant TLS pour chiffrer les données."
   },
   {
     "terme": "SSL",
-    "definition": "Ancien protocole de sécurité pour chiffrer les communications sur Internet."
+    "definition": "Secure Sockets Layer : Ancien protocole de sécurité pour chiffrer les communications sur Internet."
   },
   {
     "terme": "TLS",
-    "definition": "Protocole moderne de sécurité remplaçant SSL, utilisé dans HTTPS."
+    "definition": "Transport Layer Security : Protocole moderne de sécurité remplaçant SSL, utilisé dans HTTPS."
   },
   {
     "terme": "SQL",
-    "definition": "Langage de requête utilisé pour interagir avec les bases de données relationnelles."
+    "definition": "Structured Query Language : Langage de requête utilisé pour interagir avec les bases de données relationnelles."
   },
   {
     "terme": "Injection SQL",
@@ -65,15 +65,15 @@
   },
   {
     "terme": "XSS",
-    "definition": "Cross-Site Scripting : attaque consistant à injecter du code JavaScript malveillant."
+    "definition": "Cross-Site Scripting : Attaque consistant à injecter du code JavaScript malveillant."
   },
   {
     "terme": "CSRF",
-    "definition": "Cross-Site Request Forgery : attaque incitant un utilisateur à exécuter une action à son insu."
+    "definition": "Cross-Site Request Forgery : Attaque incitant un utilisateur à exécuter une action à son insu."
   },
   {
     "terme": "Hash",
-    "definition": "Fonction irréversible qui transforme un mot de passe en chaîne unique (ex : bcrypt)."
+    "definition": "Fonction irréversible qui transforme une donnée en une chaîne unique (ex : bcrypt)."
   },
   {
     "terme": "Chiffrement",
@@ -97,11 +97,11 @@
   },
   {
     "terme": "CMS",
-    "definition": "Content Management System, ex : WordPress, pour créer un site sans coder."
+    "definition": "Content Management System : Système de gestion de contenu permettant de créer et gérer un site web sans connaissances approfondies en développement (ex : WordPress)."
   },
   {
     "terme": "CDN",
-    "definition": "Content Delivery Network : réseau de serveurs pour accélérer la diffusion de contenu."
+    "definition": "Content Delivery Network : Réseau de serveurs pour accélérer la diffusion de contenu."
   },
   {
     "terme": "Fetch",
@@ -113,11 +113,11 @@
   },
   {
     "terme": "JSON",
-    "definition": "Format d'échange de données lisible par les humains et les machines."
+    "definition": "JavaScript Object Notation : Format d'échange de données lisible par les humains et les machines."
   },
   {
     "terme": "DOM",
-    "definition": "Modèle objet représentant la structure HTML d’un document."
+    "definition": "Document Object Model : Modèle objet représentant la structure HTML d’un document."
   },
   {
     "terme": "Bcrypt",
@@ -125,7 +125,7 @@
   },
   {
     "terme": "JWT",
-    "definition": "JSON Web Token : format sécurisé pour transmettre des informations entre client et serveur."
+    "definition": "JSON Web Token : Format sécurisé pour transmettre des informations entre client et serveur."
   },
   {
     "terme": "Session",
@@ -141,15 +141,15 @@
   },
   {
     "terme": "CORS",
-    "definition": "Cross-Origin Resource Sharing : règle de sécurité pour contrôler les accès d'origines différentes."
+    "definition": "Cross-Origin Resource Sharing : Règle de sécurité pour contrôler les accès d'origines différentes."
   },
   {
     "terme": "CLI",
-    "definition": "Command Line Interface : interface en ligne de commande pour interagir avec un système."
+    "definition": "Command Line Interface : Interface en ligne de commande pour interagir avec un système."
   },
   {
     "terme": "NPM",
-    "definition": "Node Package Manager : gestionnaire de paquets JavaScript (bibliothèques, outils, etc.)."
+    "definition": "Node Package Manager : Gestionnaire de paquets JavaScript (bibliothèques, outils, etc.)."
   },
   {
     "terme": "Node.js",
@@ -161,11 +161,11 @@
   },
   {
     "terme": "SPA",
-    "definition": "Single Page Application : application web chargée sur une seule page HTML."
+    "definition": "Single Page Application : Application web chargée sur une seule page HTML."
   },
   {
     "terme": "MVC",
-    "definition": "Architecture logicielle Modèle-Vue-Contrôleur utilisée côté back-end (ex : Symfony)."
+    "definition": "Model-View-Controller : Architecture logicielle utilisée côté back-end (ex : Symfony)."
   },
   {
     "terme": "WebSocket",
@@ -173,7 +173,7 @@
   },
   {
     "terme": "SEO",
-    "definition": "Search Engine Optimization : techniques pour améliorer le référencement sur Google."
+    "definition": "Search Engine Optimization : Techniques pour améliorer le référencement sur les moteurs de recherche."
   },
   {
     "terme": "Responsive",
@@ -181,11 +181,11 @@
   },
   {
     "terme": "UX",
-    "definition": "User Experience : expérience utilisateur, ressenti global d'une personne sur une interface."
+    "definition": "User Experience : Expérience utilisateur, ressenti global d'une personne sur une interface."
   },
   {
     "terme": "UI",
-    "definition": "User Interface : aspect visuel d’un site ou d’une application (boutons, couleurs, etc.)."
+    "definition": "User Interface : Aspect visuel d’un site ou d’une application (boutons, couleurs, etc.)."
   },
   {
     "terme": "Gamification",
@@ -197,7 +197,7 @@
   },
   {
     "terme": "MAN",
-    "definition": "Metropolitan Area Network : réseau interconnectant des ressources informatiques dans une grande zone géographique."
+    "definition": "Metropolitan Area Network : Réseau interconnectant des ressources informatiques dans une grande zone géographique."
   },
   {
     "terme": "Métaverse",
@@ -205,11 +205,11 @@
   },
   {
     "terme": "FAQ",
-    "definition": "Frequently Asked Questions : rubrique fréquente sur les sites web répondant aux questions courantes."
+    "definition": "Frequently Asked Questions : Rubrique fréquente sur les sites web répondant aux questions courantes."
   },
   {
     "terme": "W3C",
-    "definition": "World Wide Web Consortium : organisme de standardisation des technologies du web (HTML, CSS, etc.)."
+    "definition": "World Wide Web Consortium : Organisme de standardisation des technologies du web (HTML, CSS, etc.)."
   },
   {
     "terme": "Web 2.0",
@@ -245,7 +245,7 @@
   },
   {
     "terme": "URL",
-    "definition": "Uniform Resource Locator : adresse unique d’une ressource sur le web."
+    "definition": "Uniform Resource Locator : Adresse unique d’une ressource sur le web."
   },
   {
     "terme": "Adresse IP",
@@ -257,7 +257,7 @@
   },
   {
     "terme": "GPRS",
-    "definition": "Technologie de télécommunication dédiée aux téléphones portables pour l’accès à Internet."
+    "definition": "General Packet Radio Service : Technologie de télécommunication dédiée aux téléphones portables pour l’accès à Internet."
   },
   {
     "terme": "Greylisting",
@@ -277,11 +277,11 @@
   },
   {
     "terme": "IRC",
-    "definition": "Protocole permettant de converser en temps réel via le web."
+    "definition": "Internet Relay Chat : Protocole permettant de converser en temps réel via le web."
   },
   {
     "terme": "JPEG",
-    "definition": "Norme de stockage d’images sur ordinateur."
+    "definition": "Joint Photographic Experts Group : Norme de stockage d’images sur ordinateur."
   },
   {
     "terme": "Keyword",
@@ -305,7 +305,7 @@
   },
   {
     "terme": "IoT",
-    "definition": "Internet of Things : réseau d’objets connectés échangeant des données via Internet."
+    "definition": "Internet of Things : Réseau d’objets connectés échangeant des données via Internet."
   },
   {
     "terme": "NoSQL",
@@ -329,11 +329,11 @@
   },
   {
     "terme": "IDE",
-    "definition": "Integrated Development Environment : environnement de développement intégré utilisé par les développeurs."
+    "definition": "Integrated Development Environment : Environnement de développement intégré utilisé par les développeurs."
   },
   {
     "terme": "AJAX",
-    "definition": "Asynchronous JavaScript and XML : technique permettant de mettre à jour une page web sans la recharger."
+    "definition": "Asynchronous JavaScript and XML : Technique permettant de mettre à jour une page web sans la recharger."
   },
   {
     "terme": "Media Queries",
@@ -381,7 +381,7 @@
   },
   {
     "terme": "Real Audio",
-    "definition": "Format sonore utilisé avant l’explosion du MP3."
+    "definition": "Format sonore très utilisé avant l’explosion du MP3."
   },
   {
     "terme": "Recherche universelle",
@@ -389,10 +389,10 @@
   },
   {
     "terme": "WAI",
-    "definition": "Web Accessibility Initiative : standard pour rendre les sites web accessibles aux personnes handicapées."
+    "definition": "Web Accessibility Initiative : Standard pour rendre les sites web accessibles aux personnes handicapées."
   },
   {
     "terme": "WAP",
-    "definition": "Wireless Access Protocol : protocole de services et d’accès à Internet sur les terminaux mobiles."
+    "definition": "Wireless Access Protocol : Protocole de services et d’accès à Internet sur les terminaux mobiles."
   }
 ]
