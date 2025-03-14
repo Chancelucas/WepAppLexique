@@ -1,0 +1,398 @@
+[
+  {
+    "terme": "HTML",
+    "definition": "Langage de balisage utilisé pour structurer une page web."
+  },
+  {
+    "terme": "CSS",
+    "definition": "Langage de style utilisé pour la mise en page des documents HTML."
+  },
+  {
+    "terme": "JavaScript",
+    "definition": "Langage de programmation qui permet de rendre une page web interactive."
+  },
+  {
+    "terme": "API",
+    "definition": "Interface permettant à deux systèmes informatiques de communiquer entre eux."
+  },
+  {
+    "terme": "REST",
+    "definition": "Style d'architecture pour les API utilisant les méthodes HTTP (GET, POST, etc.)."
+  },
+  {
+    "terme": "GET",
+    "definition": "Méthode HTTP utilisée pour lire des données sans effet secondaire."
+  },
+  {
+    "terme": "POST",
+    "definition": "Méthode HTTP utilisée pour envoyer des données au serveur (création)."
+  },
+  {
+    "terme": "PUT",
+    "definition": "Méthode HTTP pour remplacer une ressource existante."
+  },
+  {
+    "terme": "DELETE",
+    "definition": "Méthode HTTP pour supprimer une ressource."
+  },
+  {
+    "terme": "HEAD",
+    "definition": "Méthode HTTP similaire à GET mais ne retourne que les en-têtes."
+  },
+  {
+    "terme": "PATCH",
+    "definition": "Méthode HTTP utilisée pour modifier partiellement une ressource."
+  },
+  {
+    "terme": "HTTPS",
+    "definition": "Version sécurisée de HTTP utilisant TLS pour chiffrer les données."
+  },
+  {
+    "terme": "SSL",
+    "definition": "Ancien protocole de sécurité pour chiffrer les communications sur Internet."
+  },
+  {
+    "terme": "TLS",
+    "definition": "Protocole moderne de sécurité remplaçant SSL, utilisé dans HTTPS."
+  },
+  {
+    "terme": "SQL",
+    "definition": "Langage de requête utilisé pour interagir avec les bases de données relationnelles."
+  },
+  {
+    "terme": "Injection SQL",
+    "definition": "Attaque qui consiste à insérer du code SQL malveillant dans une requête."
+  },
+  {
+    "terme": "XSS",
+    "definition": "Cross-Site Scripting : attaque consistant à injecter du code JavaScript malveillant."
+  },
+  {
+    "terme": "CSRF",
+    "definition": "Cross-Site Request Forgery : attaque incitant un utilisateur à exécuter une action à son insu."
+  },
+  {
+    "terme": "Hash",
+    "definition": "Fonction irréversible qui transforme un mot de passe en chaîne unique (ex : bcrypt)."
+  },
+  {
+    "terme": "Chiffrement",
+    "definition": "Transformation réversible de données pour les rendre illisibles sans clé."
+  },
+  {
+    "terme": "Cryptage",
+    "definition": "Terme souvent utilisé à tort pour chiffrement (terme correct : chiffrement)."
+  },
+  {
+    "terme": "Git",
+    "definition": "Système de contrôle de version décentralisé pour suivre les modifications du code."
+  },
+  {
+    "terme": "GitHub",
+    "definition": "Plateforme d'hébergement de code Git avec collaboration en ligne."
+  },
+  {
+    "terme": "Framework",
+    "definition": "Ensemble d'outils facilitant le développement (ex : Laravel, React, Symfony)."
+  },
+  {
+    "terme": "CMS",
+    "definition": "Content Management System, ex : WordPress, pour créer un site sans coder."
+  },
+  {
+    "terme": "CDN",
+    "definition": "Content Delivery Network : réseau de serveurs pour accélérer la diffusion de contenu."
+  },
+  {
+    "terme": "Fetch",
+    "definition": "API JavaScript pour faire des requêtes HTTP de façon asynchrone."
+  },
+  {
+    "terme": "Asynchrone",
+    "definition": "Permet d’exécuter des tâches sans bloquer l'exécution du reste du code."
+  },
+  {
+    "terme": "JSON",
+    "definition": "Format d'échange de données lisible par les humains et les machines."
+  },
+  {
+    "terme": "DOM",
+    "definition": "Modèle objet représentant la structure HTML d’un document."
+  },
+  {
+    "terme": "Bcrypt",
+    "definition": "Algorithme de hachage sécurisé pour les mots de passe."
+  },
+  {
+    "terme": "JWT",
+    "definition": "JSON Web Token : format sécurisé pour transmettre des informations entre client et serveur."
+  },
+  {
+    "terme": "Session",
+    "definition": "Moyen de stocker temporairement des données pour un utilisateur connecté."
+  },
+  {
+    "terme": "Cookie",
+    "definition": "Fichier stocké dans le navigateur contenant des données persistantes."
+  },
+  {
+    "terme": "Token",
+    "definition": "Jeton d'identification ou d'autorisation envoyé dans les requêtes HTTP."
+  },
+  {
+    "terme": "CORS",
+    "definition": "Cross-Origin Resource Sharing : règle de sécurité pour contrôler les accès d'origines différentes."
+  },
+  {
+    "terme": "CLI",
+    "definition": "Command Line Interface : interface en ligne de commande pour interagir avec un système."
+  },
+  {
+    "terme": "NPM",
+    "definition": "Node Package Manager : gestionnaire de paquets JavaScript (bibliothèques, outils, etc.)."
+  },
+  {
+    "terme": "Node.js",
+    "definition": "Environnement d'exécution JavaScript côté serveur."
+  },
+  {
+    "terme": "React",
+    "definition": "Bibliothèque JavaScript pour créer des interfaces utilisateur interactives (SPA)."
+  },
+  {
+    "terme": "SPA",
+    "definition": "Single Page Application : application web chargée sur une seule page HTML."
+  },
+  {
+    "terme": "MVC",
+    "definition": "Architecture logicielle Modèle-Vue-Contrôleur utilisée côté back-end (ex : Symfony)."
+  },
+  {
+    "terme": "WebSocket",
+    "definition": "Protocole permettant une communication bidirectionnelle en temps réel."
+  },
+  {
+    "terme": "SEO",
+    "definition": "Search Engine Optimization : techniques pour améliorer le référencement sur Google."
+  },
+  {
+    "terme": "Responsive",
+    "definition": "Design adaptatif qui fonctionne sur mobile, tablette, desktop, etc."
+  },
+  {
+    "terme": "UX",
+    "definition": "User Experience : expérience utilisateur, ressenti global d'une personne sur une interface."
+  },
+  {
+    "terme": "UI",
+    "definition": "User Interface : aspect visuel d’un site ou d’une application (boutons, couleurs, etc.)."
+  },
+  {
+    "terme": "Gamification",
+    "definition": "Utilisation du mécanisme de « jeu » afin de fidéliser et engager les visiteurs d’une page web."
+  },
+  {
+    "terme": "Growth Hacking",
+    "definition": "Techniques de marketing visant à améliorer rapidement la croissance du chiffre d'affaires."
+  },
+  {
+    "terme": "MAN",
+    "definition": "Metropolitan Area Network : réseau interconnectant des ressources informatiques dans une grande zone géographique."
+  },
+  {
+    "terme": "Métaverse",
+    "definition": "Monde virtuel fictif où des espaces virtuels persistants et partagés sont accessibles via interaction 3D."
+  },
+  {
+    "terme": "FAQ",
+    "definition": "Frequently Asked Questions : rubrique fréquente sur les sites web répondant aux questions courantes."
+  },
+  {
+    "terme": "W3C",
+    "definition": "World Wide Web Consortium : organisme de standardisation des technologies du web (HTML, CSS, etc.)."
+  },
+  {
+    "terme": "Web 2.0",
+    "definition": "Évolution du web permettant aux internautes d’interagir et de créer du contenu (blogs, wikis, réseaux sociaux)."
+  },
+  {
+    "terme": "Log",
+    "definition": "Fichier enregistrant les événements sur une machine, utilisé pour le suivi et le débogage."
+  },
+  {
+    "terme": "Planificateur de mots-clés",
+    "definition": "Outil gratuit de Google pour identifier les requêtes de recherche les plus courantes dans une niche."
+  },
+  {
+    "terme": "Widget",
+    "definition": "Élément visuel d’une interface graphique offrant des services dédiés sur un site web."
+  },
+  {
+    "terme": "Google My Business",
+    "definition": "Outil gratuit offrant une visibilité géolocalisée aux entreprises sur Google."
+  },
+  {
+    "terme": "Arborescence",
+    "definition": "Structure hiérarchique d’un site web, représentant l’organisation de ses pages et contenus."
+  },
+  {
+    "terme": "Règle des 3 clics",
+    "definition": "Principe de conception de navigation stipulant qu’un utilisateur doit pouvoir accéder à toute page en trois clics maximum."
+  },
+  {
+    "terme": "Technique de cloaking",
+    "definition": "Pratique consistant à présenter un contenu différent aux moteurs de recherche et aux utilisateurs."
+  },
+  {
+    "terme": "URL",
+    "definition": "Uniform Resource Locator : adresse unique d’une ressource sur le web."
+  },
+  {
+    "terme": "Adresse IP",
+    "definition": "Numéro unique attribué à chaque appareil connecté à un réseau utilisant le protocole IP."
+  },
+  {
+    "terme": "Google Trends",
+    "definition": "Outil permettant de visualiser la fréquence de recherche d’un terme sur Google par région et langue."
+  },
+  {
+    "terme": "GPRS",
+    "definition": "Technologie de télécommunication dédiée aux téléphones portables pour l’accès à Internet."
+  },
+  {
+    "terme": "Greylisting",
+    "definition": "Technique antispam consistant à rejeter temporairement un message pour vérifier sa légitimité."
+  },
+  {
+    "terme": "Sitemap",
+    "definition": "Plan d’un site web listant les ressources proposées, facilitant l’indexation par les moteurs de recherche."
+  },
+  {
+    "terme": "Cross-linking",
+    "definition": "Technique de développement du nombre de liens hypertextes vers un site web pour améliorer sa visibilité."
+  },
+  {
+    "terme": "Crowdsourcing",
+    "definition": "Utilisation des internautes pour créer du contenu ou participer à la conception d’un site web."
+  },
+  {
+    "terme": "IRC",
+    "definition": "Protocole permettant de converser en temps réel via le web."
+  },
+  {
+    "terme": "JPEG",
+    "definition": "Norme de stockage d’images sur ordinateur."
+  },
+  {
+    "terme": "Keyword",
+    "definition": "Mot-clé utilisé dans les moteurs de recherche pour trouver des pages web pertinentes."
+  },
+  {
+    "terme": "Netlinking",
+    "definition": "Technique consistant à augmenter le nombre de backlinks pointant vers un site web pour améliorer sa visibilité."
+  },
+  {
+    "terme": "Backlink",
+    "definition": "Lien entrant vers un site web, important pour le référencement."
+  },
+  {
+    "terme": "Affiliation",
+    "definition": "Technique permettant à des sites e-commerce de diffuser des annonces publicitaires en échange d’une rémunération."
+  },
+  {
+    "terme": "Big Data",
+    "definition": "Grand volume de données nécessitant des techniques spécifiques pour être traité (bases de données NoSQL, etc.)."
+  },
+  {
+    "terme": "IoT",
+    "definition": "Internet of Things : réseau d’objets connectés échangeant des données via Internet."
+  },
+  {
+    "terme": "NoSQL",
+    "definition": "Type de base de données non relationnelle, utilisé pour traiter de grandes quantités de données non structurées."
+  },
+  {
+    "terme": "Méthodes agiles",
+    "definition": "Approches itératives et collaboratives pour faciliter le développement d’un produit ou service numérique."
+  },
+  {
+    "terme": "Front-end",
+    "definition": "Partie visible d’une application web, avec laquelle les utilisateurs interagissent directement."
+  },
+  {
+    "terme": "Back-end",
+    "definition": "Partie non visible d’une application web, gérant la logique métier et les interactions avec la base de données."
+  },
+  {
+    "terme": "Full stack",
+    "definition": "Développeur capable de travailler à la fois sur le front-end et le back-end d’une application."
+  },
+  {
+    "terme": "IDE",
+    "definition": "Integrated Development Environment : environnement de développement intégré utilisé par les développeurs."
+  },
+  {
+    "terme": "AJAX",
+    "definition": "Asynchronous JavaScript and XML : technique permettant de mettre à jour une page web sans la recharger."
+  },
+  {
+    "terme": "Media Queries",
+    "definition": "Module CSS3 permettant d’adapter le contenu d’une page web à des conditions spécifiques (taille d’écran, etc.)."
+  },
+  {
+    "terme": "Mobile First",
+    "definition": "Stratégie de conception consistant à développer d’abord pour les mobiles, puis à adapter pour les écrans plus larges."
+  },
+  {
+    "terme": "Parallax Scrolling",
+    "definition": "Technique de défilement où les éléments de la page se déplacent à des vitesses différentes, créant un effet de profondeur."
+  },
+  {
+    "terme": "Recette",
+    "definition": "Vérification de la conformité fonctionnelle, technique et design d’un site web avant sa mise en production."
+  },
+  {
+    "terme": "Mise en production",
+    "definition": "Transfert des fichiers d’un site web sur le serveur de production pour le rendre accessible au public."
+  },
+  {
+    "terme": "Stack technique",
+    "definition": "Liste des outils technologiques utilisés pour développer et faire fonctionner une application."
+  },
+  {
+    "terme": "Clean Code",
+    "definition": "Pratiques de développement visant à écrire du code propre, lisible et maintenable."
+  },
+  {
+    "terme": "Débogage",
+    "definition": "Processus d’identification et de correction des bugs dans le code."
+  },
+  {
+    "terme": "Documentation",
+    "definition": "Ensemble des informations techniques et fonctionnelles sur un projet, essentiel pour la maintenance et l’utilisation."
+  },
+  {
+    "terme": "Architecture hexagonale",
+    "definition": "Architecture logicielle pour les applications back-end, favorisant la séparation des préoccupations et la maintenabilité."
+  },
+  {
+    "terme": "Quicktime",
+    "definition": "Format de fichiers audio et/ou vidéo développé par Apple, compatible avec Macintosh et Windows."
+  },
+  {
+    "terme": "Real Audio",
+    "definition": "Format sonore utilisé avant l’explosion du MP3."
+  },
+  {
+    "terme": "Recherche universelle",
+    "definition": "Rassemble l’ensemble des recherches disponibles sur Internet, incluant pages web, images, vidéos, actualités, etc."
+  },
+  {
+    "terme": "WAI",
+    "definition": "Web Accessibility Initiative : standard pour rendre les sites web accessibles aux personnes handicapées."
+  },
+  {
+    "terme": "WAP",
+    "definition": "Wireless Access Protocol : protocole de services et d’accès à Internet sur les terminaux mobiles."
+  }
+]
