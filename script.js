@@ -28,11 +28,12 @@ function afficherMenuCategories() {
 function afficherLexique(filtre = "", categorieFiltre = "") {
   tbody.innerHTML = "";
   lexique.forEach(categorie => {
+    console.log(`Traitement de la catégorie : ${categorie.nom}`);
     if (categorieFiltre && categorie.nom !== categorieFiltre) return;
 
     const filteredTerms = categorie.termes.filter(item =>
-      item.terme.toLowerCase().includes(filtre.toLowerCase()) ||
-      item.definition.toLowerCase().includes(filtre.toLowerCase())
+      (item.terme && item.terme.toLowerCase().includes(filtre.toLowerCase())) ||
+      (item.definition && item.definition.toLowerCase().includes(filtre.toLowerCase()))
     );
 
     if (filteredTerms.length > 0) {
@@ -45,21 +46,26 @@ function afficherLexique(filtre = "", categorieFiltre = "") {
         row.innerHTML = `<td><strong>${item.terme}</strong></td><td>${item.definition}</td>`;
         tbody.appendChild(row);
       });
+    }
 
-      // Afficher les sous-catégories si elles existent
-      if (categorie.sousCategories) {
-        categorie.sousCategories.forEach(sousCategorie => {
-          const sousCategoryRow = document.createElement("tr");
-          sousCategoryRow.innerHTML = `<td colspan="2"><strong>${sousCategorie.nom}</strong></td>`;
-          tbody.appendChild(sousCategoryRow);
+    // Afficher les sous-catégories si elles existent
+    if (categorie.sousCategories) {
+      categorie.sousCategories.forEach(sousCategorie => {
+        const sousCategoryRow = document.createElement("tr");
+        sousCategoryRow.innerHTML = `<td colspan="2"><strong>${sousCategorie.nom}</strong></td>`;
+        tbody.appendChild(sousCategoryRow);
 
-          sousCategorie.termes.forEach(item => {
-            const row = document.createElement("tr");
-            row.innerHTML = `<td><strong>${item.terme}</strong></td><td>${item.definition}</td>`;
-            tbody.appendChild(row);
-          });
+        const filteredSousTerms = sousCategorie.termes.filter(item =>
+          (item.terme && item.terme.toLowerCase().includes(filtre.toLowerCase())) ||
+          (item.definition && item.definition.toLowerCase().includes(filtre.toLowerCase()))
+        );
+
+        filteredSousTerms.forEach(item => {
+          const row = document.createElement("tr");
+          row.innerHTML = `<td><strong>${item.terme}</strong></td><td>${item.definition}</td>`;
+          tbody.appendChild(row);
         });
-      }
+      });
     }
   });
 }

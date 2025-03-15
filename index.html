@@ -9,27 +9,17 @@
 <body>
   <header>
     <h1>Lexique Web</h1>
-    <input type="text" id="search" placeholder="Rechercher..." aria-label="Rechercher dans le lexique">
   </header>
   <main>
     <aside>
       <nav>
-        <ul id="menu-categories" aria-label="Menu des catégories">
-          <!-- Les catégories seront insérées ici -->
-        </ul>
+        <ul id="menu-categories"></ul>
       </nav>
     </aside>
     <section>
+      <input type="text" id="search" placeholder="Rechercher un terme...">
       <table>
-        <thead>
-          <tr>
-            <th>Terme</th>
-            <th>Définition</th>
-          </tr>
-        </thead>
-        <tbody id="contenu-lexique">
-          <!-- Les termes seront insérés ici -->
-        </tbody>
+        <tbody id="contenu-lexique"></tbody>
       </table>
     </section>
   </main>
